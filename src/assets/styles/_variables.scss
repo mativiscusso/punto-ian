@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Nunito";
+    src: url("../fonts/Nunito/nunito-v16-latin-regular.ttf");
+}
+$primaryColor: #f8a734;
+$secondaryColor: #262626;
+$font: "Nunito", sans-serif;
