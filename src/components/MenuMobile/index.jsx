@@ -1,8 +1,6 @@
 import React from "react";
 import { push as Menu } from "react-burger-menu";
 import { NavLink } from "react-router-dom";
-import logoLinkdin from "../../assets/svg/linkedin.png";
-import logoGithub from "../../assets/svg/github.png";
 
 const index = (props) => {
     return (
@@ -10,48 +8,33 @@ const index = (props) => {
             <NavLink
                 activeClassName="navbar-links-active"
                 className="bm-item"
-                to="/about"
+                to="#nosotros"
             >
-                sobre mi
+                nosotros
             </NavLink>
 
             <NavLink
                 activeClassName="navbar-links-active"
                 className="bm-item"
-                to="/portfolio"
+                to="#servicios"
             >
-                portfolio
+                servicios
             </NavLink>
 
             <NavLink
                 activeClassName="navbar-links-active"
                 className="bm-item"
-                to="/contact"
+                to="/comunidad"
+            >
+                comunidad
+            </NavLink>
+            <NavLink
+                activeClassName="navbar-links-active"
+                className="bm-item"
+                to="#contacto"
             >
                 contacto
             </NavLink>
-            <div className="d-flex">
-                <li className="hvr-underline-from-center">
-                    <a
-                        href="https://www.linkedin.com/in/mati-viscusso/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="pr-3"
-                    >
-                        <img src={logoLinkdin} alt="Linkedin Mati Viscusso" />
-                    </a>
-                </li>
-                <li className="hvr-underline-from-center">
-                    <a
-                        href="https://github.com/mativiscusso"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="pr-3"
-                    >
-                        <img src={logoGithub} alt="Github Mati Viscusso" />
-                    </a>
-                </li>
-            </div>
         </Menu>
     );
 };

@@ -1,17 +1,14 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import logoMev from "../../assets/svg/Logo-MEV.svg";
+import logoIan from "../../assets/img/logo-punto-ian.png";
 import MenuMobile from "../MenuMobile";
-import logoLinkdin from "../../assets/svg/linkedin.png";
-import logoGithub from "../../assets/svg/github.png";
-
 
 const Navbar = () => {
     return (
         <nav className="navbar">
             <NavLink to="/">
                 <div className="navbar-logo">
-                    <img src={logoMev} alt="Logo MEV" />
+                    <img src={logoIan} alt="Logo Punto Ian" />
                 </div>
             </NavLink>
 
@@ -23,36 +20,34 @@ const Navbar = () => {
                     <li className="hvr-underline-from-center">
                         <NavLink
                             activeClassName="navbar-links-active"
-                            to="/about"
+                            to="#nosotros"
                         >
-                            sobre mi
+                            nosotros
                         </NavLink>
                     </li>
                     <li className="hvr-underline-from-center">
                         <NavLink
                             activeClassName="navbar-links-active"
-                            to="/portfolio"
+                            to="#servicios"
                         >
-                            portfolio
+                            servicios
                         </NavLink>
                     </li>
                     <li className="hvr-underline-from-center">
                         <NavLink
                             activeClassName="navbar-links-active"
-                            to="/contact"
+                            to="/comunidad"
                         >
-                            contacto
+                            #comunidad
                         </NavLink>
                     </li>
                     <li className="hvr-underline-from-center">
-                        <a href="https://www.linkedin.com/in/mati-viscusso/" target="_blank" rel="noopener noreferrer">
-                            <img src={logoLinkdin} alt="Linkedin Mati Viscusso"/>
-                        </a>
-                    </li>
-                    <li className="hvr-underline-from-center">
-                        <a href="https://github.com/mativiscusso" target="_blank" rel="noopener noreferrer">
-                            <img src={logoGithub} alt="Github Mati Viscusso"/>
-                        </a>
+                        <NavLink
+                            activeClassName="navbar-links-active"
+                            to="#contacto"
+                        >
+                            #contacto
+                        </NavLink>
                     </li>
                 </ul>
             </div>

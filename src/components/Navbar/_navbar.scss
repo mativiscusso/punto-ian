@@ -1,11 +1,14 @@
 .navbar {
     display: flex;
+    position: fixed;
     justify-content: space-between;
+    width: 100%;
+    align-items: center;
     padding: 1rem;
     .navbar-links {
         display: none;
         .navbar-links-active {
-            color: $green;
+            color: $primaryColor;
         }
     }
 }
@@ -25,10 +28,10 @@
                 li {
                     list-style: none;
                     a {
-                        color: $lightBlue;
+                        color: $primaryColor;
                         text-transform: uppercase;
                         text-decoration: none;
-                        font-family: $primaryFont;
+                        font-family: $font;
                         font-weight: 800;
                     }
                 }
@@ -36,7 +39,7 @@
         }
     }
 }
-@media all and (min-width: 1300px) { 
+@media all and (min-width: 1300px) {
     .navbar {
         padding: 1rem 6rem;
     }
