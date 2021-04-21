@@ -15,7 +15,7 @@ export default function OurServices() {
     return (
         <section id="servicios">
             <SectionTittle tittle="SERVICIOS" />
-            <div className="servicios-botones">
+            <div className="servicios-botones slide-top">
                 <div
                     className={
                         isVisible === 1

@@ -5,7 +5,7 @@ export default function Contact() {
     return (
         <section id="contacto">
             <SectionTittle tittle="¿Dónde estamos?" />
-            <div className="contacto-info">
+            <div className="contacto-info text-focus-in">
                 <p>
                     No dudes en contactarnos por cualquier inquietud. Podes
                     venir a visitarnos para conocer nuestros espacios o podes
@@ -23,6 +23,7 @@ export default function Contact() {
                 allowfullscreen=""
                 loading="lazy"
                 title="Ubicacion Punto Ian"
+                className="text-focus-in"
             />
         </section>
     );

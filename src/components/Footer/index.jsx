@@ -8,7 +8,7 @@ import whatsapp from "../../assets/svg/whatsapp.svg";
 export default function Footer() {
     return (
         <footer>
-            <div>
+            <div className="bounce-in-top">
                 <img src={logoIan} alt="Logo Punto Ian" srcset={logoIan} />
                 <div className="row">
                     <a href="http://" target="_blank" rel="noopener noreferrer">
@@ -37,13 +37,13 @@ export default function Footer() {
                     </a>
                 </div>
             </div>
-            <div>
+            <div className="bounce-in-top">
                 <h4>HORARIOS</h4>
                 <p>Lunes a Viernes de 08.00 a 18.45 hrs.</p>
                 <p>Córdoba 2035 - Rosario, SF (2000)</p>
                 <p>info@crecerargentina.com.ar</p>
             </div>
-            <div>
+            <div className="bounce-in-top">
                 <h4>SUSCRIBITE PARA RECIBIR NUESTRAS NOVEDADES</h4>
                 <div className="form-control">
                     <form action="" method="post">

@@ -3,11 +3,11 @@ import React from "react";
 export default function About() {
     return (
         <section id="nosotros">
-            <h1>
+            <h1 className="tracking-in-contract">
                 ¿Quienes <br />
                 Somos?
             </h1>
-            <div className="nosotros-texto">
+            <div className="nosotros-texto text-focus-in">
                 <p>
                     Somos una comunidad de nativos digitales, soñadores y
                     artistas.
