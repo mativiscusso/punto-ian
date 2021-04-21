@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import SectionTittle from "../SectionTittle";
 import iconOffice from "../../assets/svg/office-building.svg";
 import iconSpaces from "../../assets/svg/workspace.svg";
 import iconWorkspaces from "../../assets/svg/reunion.svg";
@@ -13,7 +14,7 @@ export default function OurServices() {
     }
     return (
         <section id="servicios">
-            <h2 className="servicios-title">Servicios</h2>
+            <SectionTittle tittle="SERVICIOS" />
             <div className="servicios-botones">
                 <div
                     className={
