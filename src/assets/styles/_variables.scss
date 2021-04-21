@@ -14,3 +14,7 @@ $font: "Nunito", sans-serif;
     font-family: $font;
     color: $secondaryColor;
 }
+.row {
+    display: flex;
+    flex-direction: row;
+}

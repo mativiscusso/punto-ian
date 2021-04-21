@@ -1,4 +1,42 @@
 footer {
+    background-color: $secondaryColor;
+    padding: 2rem 1rem;
+    div:nth-child(2) {
+        padding: 0rem 0 2.5rem 0;
+    }
+    .icons-footer {
+        width: 100%;
+        padding: 1.2rem;
+        filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.16));
+    }
+    h4 {
+        color: $primaryColor;
+        font-weight: 800;
+    }
+    p {
+        color: $white;
+    }
+    .copy {
+        font-size: 12px;
+        text-align: center;
+    }
+    .form-control {
+        margin: 1rem 0;
+        input {
+            border-radius: 15px;
+            padding: 5px;
+            width: 65%;
+        }
+        button {
+            border-radius: 15px;
+            background-color: $primaryColor;
+            border: 0;
+            padding: 7px 15px 8px 15px;
+            margin-left: -20px;
+            font-weight: 800;
+            width: 35%;
+        }
+    }
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {

@@ -1,0 +1,25 @@
+#nosotros {
+    padding: 1rem;
+    background-color: $white;
+    h1 {
+        font-size: 5rem;
+        font-weight: 800;
+        color: $white;
+        line-height: 0.7;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: $primaryColor;
+    }
+    .nosotros-texto {
+        padding: 2rem 0;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1300px) {
+}

@@ -1,4 +1,30 @@
 #contacto {
+    padding: 1rem;
+    background-color: $white;
+    iframe {
+        margin-top: 2rem;
+    }
+    .contacto-info {
+        padding: 1rem 0;
+        border-radius: 15px;
+        background-color: $white;
+        h3 {
+            margin-top: 0.5rem;
+            color: $primaryColor;
+        }
+    }
+    .enviar-msg {
+        color: $primaryColor;
+        font-weight: 800;
+        text-transform: uppercase;
+        width: 150px;
+        border-radius: 15px;
+        background: $white;
+        box-shadow: 5px 5px 15px #bebebeb2, -5px -5px 15px #ffffff;
+        border: 0;
+        padding: 0.5rem;
+        margin: 1rem 0;
+    }
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {

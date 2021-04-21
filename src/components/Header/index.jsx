@@ -10,8 +10,16 @@ export default function Header() {
                 <source src={urlVideo} type="video/mp4" />
             </video>
             <section className="header-text">
-                <h1>Bienvenidos a •IAN Co.</h1>
-                <h2>Tu espacio de trabajo en Rosario</h2>
+                <div className="animated-title">
+                    <div className="text-top">
+                        <div>
+                            <h1>Bienvenidos a •IAN Co.</h1>
+                        </div>
+                    </div>
+                    <div className="text-bottom">
+                        <h2>Espacio de trabajo en comunidad</h2>
+                    </div>
+                </div>
             </section>
         </header>
     );
