@@ -1548,4 +1548,57 @@ footer .form-control button {
     font-size: 1.1rem;
   }
 }
+
+#comunidad {
+  line-height: 1.7;
+  color: #262626;
+}
+
+#comunidad img {
+  width: 100%;
+}
+
+#comunidad .comunidad-tarifario,
+#comunidad .comunidad-manual {
+  padding: 3rem 1.5rem;
+}
+
+#comunidad h1 {
+  color: #f8a734;
+  font-weight: 800;
+}
+
+#comunidad h2 {
+  font-size: 1.2rem;
+}
+
+#comunidad ul {
+  margin-left: 2rem;
+}
+
+#comunidad button {
+  background-color: #f8a734;
+  border: 0;
+  padding: 0.5rem;
+  color: #f5f5f5;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin: 1rem 0;
+  -webkit-box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.22);
+          box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.22);
+}
+
+@media (min-width: 1200px) {
+  #comunidad h1 {
+    font-size: 2rem;
+  }
+  #comunidad h2 {
+    font-size: 1.5rem;
+  }
+  #comunidad .comunidad-tarifario,
+  #comunidad .comunidad-manual {
+    padding: 4rem 2.5rem;
+  }
+}
 /*# sourceMappingURL=index.css.map */
