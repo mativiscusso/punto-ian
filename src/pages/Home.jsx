@@ -1,18 +1,20 @@
-import React from "react";
+import React, { Suspense } from "react";
 import Layout from "../layout";
-import Header from "../components/Header";
-import OurServices from "../components/OurServices";
-import About from "../components/About";
-import Contact from "../components/Contact";
+const Header = React.lazy(() => import("../components/Header"));
+const OurServices = React.lazy(() => import("../components/OurServices"));
+const About = React.lazy(() => import("../components/About"));
+const Contact = React.lazy(() => import("../components/Contact"));
 
 export default function Home() {
     return (
         <div id="home">
             <Layout>
-                <Header />
-                <OurServices />
-                <About />
-                <Contact/>
+                <Suspense fallback={"Loading..."}>
+                    <Header />
+                    <OurServices />
+                    <About />
+                    <Contact />
+                </Suspense>
             </Layout>
         </div>
     );

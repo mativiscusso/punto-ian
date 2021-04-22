@@ -7,8 +7,12 @@ function Routes() {
     return (
         <Router>
             <Switch>
-                <Route extact path="/" component={Home}></Route>
-                <Route extact path="/comunidad" component={Community}></Route>
+                <Route exact path="/">
+                    <Home />
+                </Route>
+                <Route path="/comunidad">
+                    <Community />
+                </Route>
             </Switch>
         </Router>
     );

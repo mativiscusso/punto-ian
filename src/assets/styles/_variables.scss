@@ -14,7 +14,13 @@ $font: "Nunito", sans-serif;
     font-family: $font;
     color: $secondaryColor;
 }
+html {
+    scroll-behavior: smooth;
+}
 .row {
     display: flex;
     flex-direction: row;
+}
+button:hover {
+    cursor: pointer;
 }

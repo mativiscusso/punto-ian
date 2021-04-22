@@ -1,5 +1,5 @@
 #contacto {
-    padding: 1rem;
+    padding: 2rem 1rem;
     background-color: $white;
     iframe {
         margin-top: 2rem;
@@ -32,7 +32,28 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    #contacto {
+        position: relative;
+        padding: 3rem 2rem;
+        .contacto-info {
+            position: absolute;
+            z-index: 1000;
+            width: 300px;
+            top: 270px;
+            left: 3rem;
+            border-radius: 1rem;
+            box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+            padding: 1.5rem;
+        }
+    }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1400px) {
+    #contacto {
+        padding: 5rem 2rem 2rem 2rem;
+        .contacto-info {
+            top: 300px;
+            left: 2.5rem;
+        }
+    }
 }

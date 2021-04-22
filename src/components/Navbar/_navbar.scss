@@ -12,6 +12,15 @@
             color: $primaryColor;
         }
     }
+    transition: all 0.3s ease-in;
+}
+.scrolled {
+    background-color: #ffffffd2;
+    height: 8%;
+    img {
+        width: 60%;
+    }
+    box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.16);
 }
 @media all and (min-width: 1024px) {
     .navbar {
@@ -29,7 +38,7 @@
                 li {
                     list-style: none;
                     a {
-                        color: $primaryColor;
+                        color: $secondaryColor;
                         text-transform: uppercase;
                         text-decoration: none;
                         font-family: $font;

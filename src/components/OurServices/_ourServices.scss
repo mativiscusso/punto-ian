@@ -44,11 +44,84 @@
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    #servicios {
+        .servicios-botones {
+            .servicios-btn {
+                img {
+                    width: 50%;
+                }
+            }
+        }
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    #servicios {
+        padding: 6rem 2rem;
+        .servicios-botones {
+            padding-bottom: 2rem;
+            .servicios-btn {
+                font-size: 1.5rem;
+                height: 250px;
+                img {
+                    width: 50%;
+                }
+            }
+        }
+        .servicio-detalle {
+            display: flex;
+            justify-content: space-between;
+            .descripcion {
+                margin-left: 3rem;
+                h2 {
+                    font-size: 2.2rem;
+                    font-weight: 800;
+                    text-transform: uppercase;
+                }
+                p {
+                    font-size: 1.5rem;
+                }
+                h3 {
+                    font-size: 2.2rem;
+                    font-weight: 800;
+                }
+            }
+        }
+    }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1400px) {
+    #servicios {
+        padding: 6rem 3rem;
+        .servicios-botones {
+            padding-bottom: 3rem;
+            justify-content: center;
+            .servicios-btn {
+                &:nth-child(2) {
+                    margin: 0 4rem;
+                }
+            }
+        }
+        .servicio-detalle {
+            img {
+                width: 65%;
+            }
+            .descripcion {
+                margin-left: 9rem;
+                h2 {
+                    font-size: 2.2rem;
+                    font-weight: 800;
+                    text-transform: uppercase;
+                }
+                p {
+                    font-size: 1.5rem;
+                }
+                h3 {
+                    font-size: 2.2rem;
+                    font-weight: 800;
+                }
+            }
+        }
+    }
 }

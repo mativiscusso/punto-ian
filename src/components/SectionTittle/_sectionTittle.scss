@@ -58,7 +58,7 @@
         display: flex;
         align-items: center;
         height: 15px;
-        margin-top: -10px;
+        margin-top: 0px;
 
         .block {
             width: 0%;
@@ -190,5 +190,23 @@
     100% {
         opacity: 1;
         bottom: 0px;
+    }
+}
+@media (min-width: 1200px) {
+    .box {
+        .title {
+            h1 {
+                font-size: 3rem;
+            }
+        }
+    }
+}
+@media (min-width: 1400px) {
+    .box {
+        .title {
+            h1 {
+                font-size: 3.5rem;
+            }
+        }
     }
 }

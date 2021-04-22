@@ -96,11 +96,54 @@ header {
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    header {
+        .header-text {
+            h1 {
+                font-size: 2.8rem;
+                font-weight: 800;
+            }
+            h2 {
+                font-size: 2.2rem;
+                font-weight: 400;
+            }
+        }
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    header {
+        .header-text {
+            .animated-title {
+                line-height: 0.8;
+                .text-bottom {
+                    h2 {
+                        letter-spacing: 4px;
+                    }
+                }
+            }
+            h1 {
+                font-size: 3.2rem;
+            }
+            h2 {
+                font-size: 1.8rem;
+            }
+        }
+    }
 }
 
 @media (min-width: 1300px) {
+    header {
+        .header-text {
+            margin-left: 2rem;
+            h1 {
+                font-size: 3.4rem;
+                margin-left: 120px;
+            }
+            h2 {
+                font-size: 2rem;
+                margin-left: 120px;
+            }
+        }
+    }
 }

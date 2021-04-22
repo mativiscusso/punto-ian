@@ -5,22 +5,8 @@ import { NavLink } from "react-router-dom";
 const index = (props) => {
     return (
         <Menu {...props}>
-            <NavLink
-                activeClassName="navbar-links-active"
-                className="bm-item"
-                to="#nosotros"
-            >
-                nosotros
-            </NavLink>
-
-            <NavLink
-                activeClassName="navbar-links-active"
-                className="bm-item"
-                to="#servicios"
-            >
-                servicios
-            </NavLink>
-
+            <a href="#nosotros">nosotros</a>
+            <a href="#servicios">servicios</a>
             <NavLink
                 activeClassName="navbar-links-active"
                 className="bm-item"
@@ -28,13 +14,7 @@ const index = (props) => {
             >
                 comunidad
             </NavLink>
-            <NavLink
-                activeClassName="navbar-links-active"
-                className="bm-item"
-                to="#contacto"
-            >
-                contacto
-            </NavLink>
+            <a href="#contacto">contacto</a>
         </Menu>
     );
 };
