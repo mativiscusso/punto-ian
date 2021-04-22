@@ -16,6 +16,7 @@ export default function Footer() {
                             href="http://"
                             target="_blank"
                             rel="noopener noreferrer"
+                            className="hvr-pop"
                         >
                             <img
                                 className="icons-footer"
@@ -27,6 +28,7 @@ export default function Footer() {
                             href="http://"
                             target="_blank"
                             rel="noopener noreferrer"
+                            className="hvr-pop"
                         >
                             <img
                                 className="icons-footer"
@@ -38,6 +40,7 @@ export default function Footer() {
                             href="http://"
                             target="_blank"
                             rel="noopener noreferrer"
+                            className="hvr-pop"
                         >
                             <img
                                 className="icons-footer"
@@ -49,6 +52,7 @@ export default function Footer() {
                             href="http://"
                             target="_blank"
                             rel="noopener noreferrer"
+                            className="hvr-pop"
                         >
                             <img
                                 className="icons-footer"
@@ -73,7 +77,9 @@ export default function Footer() {
                                 name="newsletter"
                                 id="newsletter"
                             />
-                            <button type="submit">SUSCRIBIRME</button>
+                            <button className="hvr-pop" type="submit">
+                                SUSCRIBIRME
+                            </button>
                         </form>
                     </div>
                 </div>

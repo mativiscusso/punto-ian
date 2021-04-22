@@ -83,7 +83,7 @@ export default function Community() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <button>Ver el manual</button>
+                        <button className="hvr-pop">Ver el manual</button>
                     </a>
                 </div>
             </section>
