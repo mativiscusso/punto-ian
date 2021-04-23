@@ -13,7 +13,7 @@ export default function Footer() {
                     <img src={logoIan} alt="Logo Punto Ian" srcset={logoIan} />
                     <div className="row">
                         <a
-                            href="http://"
+                            href="https://www.facebook.com/puntoianCo/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="hvr-pop"
@@ -25,7 +25,7 @@ export default function Footer() {
                             />
                         </a>
                         <a
-                            href="http://"
+                            href="https://www.instagram.com/puntoiancoworking/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="hvr-pop"
@@ -37,9 +37,7 @@ export default function Footer() {
                             />
                         </a>
                         <a
-                            href="http://"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            href="mailto:info@crecerargentina.com.ar?subject=Contacto desde web"
                             className="hvr-pop"
                         >
                             <img
@@ -49,7 +47,7 @@ export default function Footer() {
                             />
                         </a>
                         <a
-                            href="http://"
+                            href="https://wa.link/ntkshl"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="hvr-pop"

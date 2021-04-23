@@ -25,7 +25,7 @@ export default function OurServices() {
                     onClick={() => handleClick(1)}
                 >
                     <img src={iconSpaces} alt="icono de servicios" />
-                    Espacios
+                    Puestos
                 </div>
                 <div
                     className={
@@ -52,43 +52,143 @@ export default function OurServices() {
             </div>
             {isVisible === 1 && (
                 <div className="servicio-detalle swing-in-right-bck">
-                    <img src={imgSpaces} alt="Espacios de trabajo" />
-                    <div className="descripcion">
-                        <h2>Titulo</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Ut explicabo nostrum autem ad inventore sunt
-                            harum rem magnam necessitatibus? Sunt.
-                        </p>
-                        <h3>$7.000</h3>
+                    <img src={imgSpaces} alt="Puestos de trabajo" />
+                    <div className="container">
+                        <div className="descripcion text-focus-in">
+                            <h2>Nómade</h2>
+                            <h3 className="titulo-valor">Mensual</h3>
+                            <p>
+                                Puesto flexible en espacios de uso común según
+                                disponibilidad en el momento. 15 días completos
+                                o 30 media jornadas. TOTAL: 120 horas. 6
+                                créditos de regalo para usar en cualquier
+                                servicio del espacio. Conexión a Internet de
+                                alta velocidad. Uso de cocina, chill, livings,
+                                bicicletero y espacios de uso común. Acceso a
+                                actividades sociales y profesionales.
+                            </p>
+                            <h3>$4.300 +I.V.A.</h3>
+                            <h3 className="titulo-valor">Por Jornada</h3>
+                            <p>
+                                Puesto flexible en espacios de uso común según
+                                disponibilidad en el momento.
+                            </p>
+                            <h3>$250 - 4hs | $350 - 8hs</h3>
+                        </div>
+                        <hr />
+                        <div className="descripcion text-focus-in">
+                            <h2>Residente</h2>
+                            <h3 className="titulo-valor">Mensual</h3>
+                            <p>
+                                Puesto flexible en espacios de uso común según
+                                disponibilidad en el momento. Mes completo sin
+                                límite de horas. 8 créditos de regalo para usar
+                                en cualquier servicio del espacio. Conexión a
+                                Internet de alta velocidad. Uso de cocina,
+                                chill, livings, bicicletero y espacios de uso
+                                común. Acceso a actividades sociales y
+                                profesionales.
+                            </p>
+                            <h3>$5.000 + I.V.A.</h3>
+                        </div>
+                        <hr />
+                        <div className="descripcion text-focus-in">
+                            <h2>Fix Desk</h2>
+                            <h3 className="titulo-valor">Mensual</h3>
+                            <p>
+                                Escritorio fijo de uso exclusivo, apto para PC
+                                de escritorio o monitores permanentes. Mes
+                                completo sin límite de horas. 10 créditos de
+                                regalo para usar en cualquier servicio del
+                                espacio. Conexión a Internet de alta velocidad.
+                                Uso de cocina, chill, livings, bicicletero y
+                                espacios de uso común. Acceso a actividades
+                                sociales y profesionales.
+                            </p>
+                            <h3>$6.800 + I.V.A.</h3>
+                        </div>
                     </div>
                 </div>
             )}
             {isVisible === 2 && (
                 <div className="servicio-detalle swing-in-right-bck">
                     <img src={imgOffices} alt="Oficinas" />
-                    <div className="descripcion">
-                        <h2>Titulo</h2>
+                    <div className="descripcion text-focus-in">
+                        <h2>Oficinas Privadas</h2>
+                        <h3 className="titulo-valor">Mensual</h3>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Ut explicabo nostrum autem ad inventore sunt
-                            harum rem magnam necessitatibus? Sunt.
+                            Escritorio fijo de uso exclusivo, apto para PC de
+                            escritorio o monitores permanentes. Mes completo sin
+                            límite de horas. 10 créditos de regalo para usar en
+                            cualquier servicio del espacio. Conexión a Internet
+                            de alta velocidad. Uso de cocina, chill, livings,
+                            bicicletero y espacios de uso común. Acceso a
+                            actividades sociales y profesionales.
                         </p>
-                        <h3>$7.000</h3>
+                        <h3>$8.300 + I.V.A.</h3>
+                        <small>POR PUESTO DE TRABAJO</small>
+                        <br />
+                        <br />
+                        <h3 className="titulo-valor">Por Día</h3>
+                        <p>
+                            En .Ian te ofrecemos la posibilidad de tener tu
+                            ocina por día, durante una jornada completa o media
+                            jornada. Sin contratos! Incluye cafetería y wi-.
+                            Tenemos acceso directo por cochera y bicicletero
+                            disponible. Disponibilidad sujeta a reserva previa.
+                        </p>
+                        <p>OFICINA CHICA (Hasta 4 personas)</p>
+                        <h3>$1.500 + I.V.A. - Jornada completa</h3>
+                        <h3>$1.000 + I.V.A. - Media Jornada</h3>
+                        <p>OFICINA GRANDE (Hasta 8 personas)</p>
+                        <h3>$3.000 + I.V.A. - Jornada completa</h3>
+                        <h3>$1.500 + I.V.A. - Media Jornada</h3>
                     </div>
                 </div>
             )}
             {isVisible === 3 && (
                 <div className="servicio-detalle swing-in-right-bck">
                     <img src={imgWorkspaces} alt="Salas de trabajo" />
-                    <div className="descripcion">
-                        <h2>Titulo</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Ut explicabo nostrum autem ad inventore sunt
-                            harum rem magnam necessitatibus? Sunt.
-                        </p>
-                        <h3>$7.000</h3>
+                    <div className="container">
+                        <div className="descripcion text-focus-in">
+                            <h2>Sala de reuniones</h2>
+                            <p>Hasta 15 personas</p>
+                            <h3 className="titulo-valor">Por Hora</h3>
+                            <p>
+                                Nuestra sala de reuniones cuenta con una mesa
+                                central y 12 cómodos asientos, enchufes
+                                multinorma, televisor LED pantalla plana y
+                                dispositivo chromecast. Además, está equipada
+                                con paneles de insonorización, aire
+                                acondicionado frío/calor y doble iluminación
+                                (una es más tenue para la presentación de
+                                diapositivas, videos, etc).
+                            </p>
+                            <h3>
+                                $920 + I.V.A. hora | $690 + I.V.A. a partir de 2
+                                hs
+                            </h3>
+                        </div>
+                        <hr />
+                        <div className="descripcion text-focus-in">
+                            <h2>Auditorio</h2>
+                            <p>Hasta 70 personas</p>
+                            <h3 className="titulo-valor">Por Hora</h3>
+                            <p>
+                                Se puede acordar de antemano la disposición del
+                                mobiliario en base a tus necesidades
+                                particulares. Al igual que la sala de reuniones,
+                                este espacio cuenta con proyector, pantalla,
+                                pizarra móvil, dispositivo chromecast, enchufes
+                                multinorma, aire acondicionado frío/calor y
+                                doble iluminación. Superficie del auditorio
+                                100m2.
+                            </p>
+                            <h3>
+                                $3.450 + I.V.A. hora | $2875 + I.V.A. a partir
+                                de 2 hs
+                            </h3>
+                        </div>
                     </div>
                 </div>
             )}
