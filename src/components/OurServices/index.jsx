@@ -73,7 +73,8 @@ export default function OurServices() {
                                 Puesto flexible en espacios de uso común según
                                 disponibilidad en el momento.
                             </p>
-                            <h3>$250 - 4hs | $350 - 8hs</h3>
+                            <h3>$250 - 4hs</h3>
+                            <h3>$350 - 8hs</h3>
                         </div>
                         <hr />
                         <div className="descripcion text-focus-in">
@@ -137,9 +138,11 @@ export default function OurServices() {
                             Tenemos acceso directo por cochera y bicicletero
                             disponible. Disponibilidad sujeta a reserva previa.
                         </p>
+                        <br />
                         <p>OFICINA CHICA (Hasta 4 personas)</p>
                         <h3>$1.500 + I.V.A. - Jornada completa</h3>
                         <h3>$1.000 + I.V.A. - Media Jornada</h3>
+                        <br />
                         <p>OFICINA GRANDE (Hasta 8 personas)</p>
                         <h3>$3.000 + I.V.A. - Jornada completa</h3>
                         <h3>$1.500 + I.V.A. - Media Jornada</h3>
@@ -164,10 +167,8 @@ export default function OurServices() {
                                 (una es más tenue para la presentación de
                                 diapositivas, videos, etc).
                             </p>
-                            <h3>
-                                $920 + I.V.A. hora | $690 + I.V.A. a partir de 2
-                                hs
-                            </h3>
+                            <h3>$920 + I.V.A. hora</h3>
+                            <h3>$690 + I.V.A. a partir de 2 hs</h3>
                         </div>
                         <hr />
                         <div className="descripcion text-focus-in">
@@ -184,10 +185,8 @@ export default function OurServices() {
                                 doble iluminación. Superficie del auditorio
                                 100m2.
                             </p>
-                            <h3>
-                                $3.450 + I.V.A. hora | $2875 + I.V.A. a partir
-                                de 2 hs
-                            </h3>
+                            <h3>$3.450 + I.V.A. hora</h3>
+                            <h3>$2875 + I.V.A. a partir de 2 hs</h3>
                         </div>
                     </div>
                 </div>

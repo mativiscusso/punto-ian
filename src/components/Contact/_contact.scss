@@ -1,7 +1,9 @@
 #contacto {
     padding: 2rem 1rem;
     background-color: $white;
-    iframe {
+    .contacto-mapa {
+        width: 100%;
+        height: 100%;
         margin-top: 2rem;
     }
     .contacto-info {
