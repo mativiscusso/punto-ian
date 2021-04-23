@@ -4,8 +4,8 @@ import iconOffice from "../../assets/svg/office-building.svg";
 import iconSpaces from "../../assets/svg/workspace.svg";
 import iconWorkspaces from "../../assets/svg/reunion.svg";
 import imgSpaces from "../../assets/img/d.jpg";
-import imgWorkspaces from "../../assets/img/reu.bmp";
-import imgOffices from "../../assets/img/ofi.bmp";
+import imgWorkspaces from "../../assets/img/reu.jpg";
+import imgOffices from "../../assets/img/ofi.jpg";
 
 export default function OurServices() {
     const [isVisible, setIsVisible] = useState(1);
