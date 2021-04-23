@@ -952,7 +952,7 @@ header .header-text h2 {
   display: flex;
 }
 
-.box .role p {
+.box .role div:last-child {
   -webkit-animation: secFadeIn 0.5s forwards;
           animation: secFadeIn 0.5s forwards;
   -webkit-animation-delay: 2.5s;
@@ -964,7 +964,7 @@ header .header-text h2 {
   letter-spacing: 5px;
 }
 
-.box .role p hr {
+.box .role div:last-child hr {
   width: 150px;
   border: solid 2px #f8a734;
 }

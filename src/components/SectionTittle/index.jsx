@@ -13,9 +13,9 @@ export default function SectionTittle({ tittle }) {
 
             <div className="role">
                 <div className="block"></div>
-                <p>
+                <div>
                     <hr />
-                </p>
+                </div>
             </div>
         </div>
     );

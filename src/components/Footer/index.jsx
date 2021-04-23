@@ -10,7 +10,7 @@ export default function Footer() {
         <>
             <footer>
                 <div className="bounce-in-top">
-                    <img src={logoIan} alt="Logo Punto Ian" srcset={logoIan} />
+                    <img src={logoIan} alt="Logo Punto Ian" srcSet={logoIan} />
                     <div className="row">
                         <a
                             href="https://www.facebook.com/puntoianCo/"

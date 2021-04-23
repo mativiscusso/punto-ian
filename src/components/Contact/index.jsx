@@ -1,8 +1,37 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import SectionTittle from "../SectionTittle";
-import maps from '../../assets/img/maps.jpg'
 
 export default function Contact() {
+    const [width, setWidth] = useState(0);
+    const [map, setMap] = useState("false");
+    useEffect(() => {
+        setWidth(window.screen.width);
+    }, []);
+    if (width < 414) {
+        import("../../assets/img/maps-mobile-2.jpg")
+            .then((map) => {
+                setMap(map.default);
+            })
+            .catch((err) => {
+                console.log(err);
+            });
+    } else if (width > 414 && width < 1280) {
+        import("../../assets/img/maps-mobile.jpg")
+            .then((map) => {
+                setMap(map.default);
+            })
+            .catch((err) => {
+                console.log(err);
+            });
+    } else {
+        import("../../assets/img/maps.jpg")
+            .then((map) => {
+                setMap(map.default);
+            })
+            .catch((err) => {
+                console.log(err);
+            });
+    }
     return (
         <section id="contacto">
             <SectionTittle tittle="¿Dónde estamos?" />
@@ -14,9 +43,21 @@ export default function Contact() {
                 </p>
                 <h3>Contacto</h3>
                 <p>(+54) 341 3085430</p>
-               <a href="https://wa.link/ntkshl" target="_blank" rel="noopener noreferrer"><button className="enviar-msg hvr-pop">Enviar Mensaje</button></a> 
+                <a
+                    href="https://wa.link/ntkshl"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <button className="enviar-msg hvr-pop">
+                        Enviar Mensaje
+                    </button>
+                </a>
             </div>
-            <img className="contacto-mapa"src={maps} alt="Ubicacion punto ian"/>
+            <img
+                className="contacto-mapa"
+                src={map}
+                alt="Ubicacion punto ian"
+            />
         </section>
     );
 }
