@@ -18,7 +18,7 @@ const Navbar = () => {
         <nav className={changeStyle ? "navbar scrolled" : "navbar"}>
             <NavLink to="/">
                 <div className="navbar-logo">
-                    <img src={logoIan} alt="Logo Punto Ian" />
+                    <img loading="lazy" src={logoIan} alt="Logo Punto Ian" />
                 </div>
             </NavLink>
 

@@ -7,7 +7,11 @@ export default function Community() {
         <Layout>
             <section id="comunidad">
                 <div>
-                    <img src={imgBackground} alt="Nuestra comunidad" />
+                    <img
+                        loading="lazy"
+                        src={imgBackground}
+                        alt="Nuestra comunidad"
+                    />
                 </div>
                 <div className="comunidad-tarifario">
                     <h1>Tarifario de Créditos</h1>

@@ -54,6 +54,7 @@ export default function Contact() {
                 </a>
             </div>
             <img
+                loading="lazy"
                 className="contacto-mapa"
                 src={map}
                 alt="Ubicacion punto ian"

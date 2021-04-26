@@ -24,7 +24,11 @@ export default function OurServices() {
                     }
                     onClick={() => handleClick(1)}
                 >
-                    <img src={iconSpaces} alt="icono de servicios" />
+                    <img
+                        loading="lazy"
+                        src={iconSpaces}
+                        alt="icono de servicios"
+                    />
                     Puestos
                 </div>
                 <div
@@ -35,7 +39,11 @@ export default function OurServices() {
                     }
                     onClick={() => handleClick(2)}
                 >
-                    <img src={iconOffice} alt="icono de servicios" />
+                    <img
+                        loading="lazy"
+                        src={iconOffice}
+                        alt="icono de servicios"
+                    />
                     Oficinas
                 </div>
                 <div
@@ -46,13 +54,21 @@ export default function OurServices() {
                     }
                     onClick={() => handleClick(3)}
                 >
-                    <img src={iconWorkspaces} alt="icono de servicios" />
+                    <img
+                        loading="lazy"
+                        src={iconWorkspaces}
+                        alt="icono de servicios"
+                    />
                     Salas
                 </div>
             </div>
             {isVisible === 1 && (
                 <div className="servicio-detalle swing-in-right-bck">
-                    <img src={imgSpaces} alt="Puestos de trabajo" />
+                    <img
+                        loading="lazy"
+                        src={imgSpaces}
+                        alt="Puestos de trabajo"
+                    />
                     <div className="container">
                         <div className="descripcion text-focus-in">
                             <h2>Nómade</h2>
@@ -113,7 +129,7 @@ export default function OurServices() {
             )}
             {isVisible === 2 && (
                 <div className="servicio-detalle swing-in-right-bck">
-                    <img src={imgOffices} alt="Oficinas" />
+                    <img loading="lazy" src={imgOffices} alt="Oficinas" />
                     <div className="descripcion text-focus-in">
                         <h2>Oficinas Privadas</h2>
                         <h3 className="titulo-valor">Mensual</h3>
@@ -151,7 +167,11 @@ export default function OurServices() {
             )}
             {isVisible === 3 && (
                 <div className="servicio-detalle swing-in-right-bck">
-                    <img src={imgWorkspaces} alt="Salas de trabajo" />
+                    <img
+                        loading="lazy"
+                        src={imgWorkspaces}
+                        alt="Salas de trabajo"
+                    />
                     <div className="container">
                         <div className="descripcion text-focus-in">
                             <h2>Sala de reuniones</h2>

@@ -10,7 +10,12 @@ export default function Footer() {
         <>
             <footer>
                 <div className="bounce-in-top">
-                    <img src={logoIan} alt="Logo Punto Ian" srcSet={logoIan} />
+                    <img
+                        loading="lazy"
+                        src={logoIan}
+                        alt="Logo Punto Ian"
+                        srcSet={logoIan}
+                    />
                     <div className="row">
                         <a
                             href="https://www.facebook.com/puntoianCo/"
@@ -19,6 +24,7 @@ export default function Footer() {
                             className="hvr-pop"
                         >
                             <img
+                                loading="lazy"
                                 className="icons-footer"
                                 src={facebook}
                                 alt="Facebook"
@@ -31,6 +37,7 @@ export default function Footer() {
                             className="hvr-pop"
                         >
                             <img
+                                loading="lazy"
                                 className="icons-footer"
                                 src={instagram}
                                 alt="instagram"
@@ -41,6 +48,7 @@ export default function Footer() {
                             className="hvr-pop"
                         >
                             <img
+                                loading="lazy"
                                 className="icons-footer"
                                 src={email}
                                 alt="email"
@@ -53,6 +61,7 @@ export default function Footer() {
                             className="hvr-pop"
                         >
                             <img
+                                loading="lazy"
                                 className="icons-footer"
                                 src={whatsapp}
                                 alt="whatsapp"
