@@ -41,8 +41,8 @@
             position: absolute;
             z-index: 1000;
             width: 300px;
-            top: 280px;
-            left: 45px;
+            top: 150px;
+            left: 35px;
             border-radius: 1rem;
             background: rgba(255, 255, 255, 0.25);
             box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -54,6 +54,14 @@
             .enviar-msg {
                 background-color: $primaryColor;
                 color: $white;
+            }
+            a {
+                text-decoration: none;
+                transition: all 0.2s;
+                font-weight: 800;
+                &:hover {
+                    font-size: 15px;
+                }
             }
         }
     }

@@ -43,6 +43,15 @@ export default function Contact() {
                 </p>
                 <h3>Contacto</h3>
                 <p>(+54) 341 3085430</p>
+                <small>
+                    <a
+                        href="https://g.page/ian_Coworking?share"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Córdoba 2035 - Rosario, SF (2000)
+                    </a>
+                </small>
                 <a
                     href="https://wa.link/ntkshl"
                     target="_blank"

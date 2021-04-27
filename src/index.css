@@ -1504,8 +1504,8 @@ header .header-text h2 {
     position: absolute;
     z-index: 1000;
     width: 300px;
-    top: 280px;
-    left: 45px;
+    top: 150px;
+    left: 35px;
     border-radius: 1rem;
     background: rgba(255, 255, 255, 0.25);
     -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -1519,6 +1519,15 @@ header .header-text h2 {
   #contacto .contacto-info .enviar-msg {
     background-color: #f8a734;
     color: #f5f5f5;
+  }
+  #contacto .contacto-info a {
+    text-decoration: none;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    font-weight: 800;
+  }
+  #contacto .contacto-info a:hover {
+    font-size: 15px;
   }
 }
 
