@@ -1,8 +1,7 @@
 import React from "react";
 
 export default function Header() {
-    const urlVideo =
-        "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    const urlVideo = "/videos/IanCo.mp4";
     return (
         <header>
             <div className="background-header"></div>

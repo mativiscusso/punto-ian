@@ -78,7 +78,7 @@ export default function Footer() {
                 <div className="bounce-in-top">
                     <h4>SUSCRIBITE PARA RECIBIR NUESTRAS NOVEDADES</h4>
                     <div className="form-control">
-                        <form action="" method="post">
+                        <form>
                             <input
                                 type="text"
                                 name="newsletter"
