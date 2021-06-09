@@ -44,7 +44,7 @@ header {
             position: absolute;
             top: 50%;
             transform: translate(-50%, -50%);
-            width: 90vmin;
+            width: 85vmin;
             z-index: -1;
         }
         .animated-title > div {
@@ -116,6 +116,8 @@ header {
         .header-text {
             .animated-title {
                 line-height: 0.8;
+                width: 100vmin;
+
                 .text-bottom {
                     h2 {
                         letter-spacing: 4px;
