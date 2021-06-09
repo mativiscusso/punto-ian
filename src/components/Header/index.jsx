@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollDownIcon from "../ScrollDownIcon";
 
 export default function Header() {
     const urlVideo = "/videos/puntoian.mp4";
@@ -20,6 +21,7 @@ export default function Header() {
                     </div>
                 </div>
             </section>
+            <ScrollDownIcon />
         </header>
     );
 }

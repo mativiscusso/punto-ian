@@ -42,6 +42,14 @@ const Navbar = () => {
                         </NavLink>
                     </li>
                     <li className="hvr-underline-from-center">
+                        <NavLink
+                            activeClassName="navbar-links-active"
+                            to="/tour"
+                        >
+                            tour 360°
+                        </NavLink>
+                    </li>
+                    <li className="hvr-underline-from-center">
                         <a href="/#contacto">contacto</a>
                     </li>
                 </ul>

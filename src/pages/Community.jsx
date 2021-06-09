@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../layout";
 import imgBackground from "../assets/img/background-header-puntoian.jpg";
+import ScrollDownIcon from "../components/ScrollDownIcon";
 
 export default function Community() {
     return (
@@ -12,6 +13,7 @@ export default function Community() {
                         src={imgBackground}
                         alt="Nuestra comunidad"
                     />
+                    <ScrollDownIcon />
                 </div>
                 <div className="comunidad-tarifario">
                     <h1>Tarifario de Créditos</h1>
