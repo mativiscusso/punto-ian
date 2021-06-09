@@ -1,12 +1,13 @@
 import React from "react";
 import { push as Menu } from "react-burger-menu";
 import { NavLink } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 const index = (props) => {
     return (
         <Menu {...props}>
-            <a href="#nosotros">nosotros</a>
-            <a href="#servicios">servicios</a>
+            <Link to="/#nosotros">nosotros</Link>
+            <Link to="/#servicios">servicios</Link>
             <NavLink
                 activeClassName="navbar-links-active"
                 className="bm-item"
@@ -14,7 +15,14 @@ const index = (props) => {
             >
                 comunidad
             </NavLink>
-            <a href="#contacto">contacto</a>
+            <NavLink
+                activeClassName="navbar-links-active"
+                className="bm-item"
+                to="/tour"
+            >
+                tour 360°
+            </NavLink>
+            <Link to="/#contacto">contacto</Link>
         </Menu>
     );
 };
