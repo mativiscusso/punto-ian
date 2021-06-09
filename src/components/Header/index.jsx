@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Header() {
-    const urlVideo = "/videos/IanCo.mp4";
+    const urlVideo = "/videos/puntoian.mp4";
     return (
         <header>
             <div className="background-header"></div>
