@@ -70,19 +70,23 @@ footer {
         justify-content: space-between;
         align-items: center;
         padding: 2.5rem 2rem 1rem 2rem;
+
         div:first-child {
-            width: 30%;
+            width: 35%;
         }
         .icons-footer {
-            width: 90%;
+            width: 100%;
         }
         .form-control {
             input {
-                width: 65%;
+                width: 60%;
             }
             button {
                 width: 35%;
             }
+        }
+        div:last-child {
+            padding-left: 2rem;
         }
     }
 }

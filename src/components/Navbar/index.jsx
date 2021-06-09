@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import logoIan from "../../assets/img/logo-punto-ian.png";
 import MenuMobile from "../MenuMobile";
 
@@ -28,10 +29,10 @@ const Navbar = () => {
             <div className="navbar-links">
                 <ul>
                     <li className="hvr-underline-from-center">
-                        <a href="/#nosotros">nosotros</a>
+                        <Link to="/#nosotros">nosotros</Link>
                     </li>
                     <li className="hvr-underline-from-center">
-                        <a href="/#servicios">servicios</a>
+                        <Link to="/#servicios">servicios</Link>
                     </li>
                     <li className="hvr-underline-from-center">
                         <NavLink
@@ -50,7 +51,7 @@ const Navbar = () => {
                         </NavLink>
                     </li>
                     <li className="hvr-underline-from-center">
-                        <a href="/#contacto">contacto</a>
+                        <Link to="/#contacto">contacto</Link>
                     </li>
                 </ul>
             </div>

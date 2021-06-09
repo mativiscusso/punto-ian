@@ -20,5 +20,8 @@
 @media (min-width: 1400px) {
     #tour {
         background-color: $white;
+        img {
+            width: 50%;
+        }
     }
 }

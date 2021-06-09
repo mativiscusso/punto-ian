@@ -1,5 +1,6 @@
 import React, { Suspense } from "react";
-import Layout from "../layout";
+import Backdrop from "../components/Backdrop";
+const Layout = React.lazy(() => import("../layout"));
 const Header = React.lazy(() => import("../components/Header"));
 const OurServices = React.lazy(() => import("../components/OurServices"));
 const About = React.lazy(() => import("../components/About"));
@@ -9,15 +10,15 @@ const Contact = React.lazy(() => import("../components/Contact"));
 export default function Home() {
     return (
         <div id="home">
-            <Layout>
-                <Suspense fallback={"Loading..."}>
+            <Suspense fallback={<Backdrop />}>
+                <Layout>
                     <Header />
                     <OurServices />
                     <About />
                     <Tour />
                     <Contact />
-                </Suspense>
-            </Layout>
+                </Layout>
+            </Suspense>
         </div>
     );
 }
