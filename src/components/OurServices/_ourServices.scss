@@ -1,6 +1,6 @@
 #servicios {
     background-color: $white;
-    padding: 3rem 1rem;
+    padding: 5rem 1rem 3rem 1rem;
     .servicios-title {
         font-size: 2rem;
     }
@@ -73,6 +73,12 @@
                 color: $primaryColor;
                 font-weight: 800;
             }
+            ul {
+                margin: 0.5rem;
+                li {
+                    list-style: none;
+                }
+            }
         }
     }
 }
@@ -122,7 +128,11 @@
                 width: 50%;
             }
             .descripcion {
-                margin-left: 2rem;
+                margin: 2rem 0;
+                display: flex;
+                & > div {
+                    padding: 0.5rem 0 0 2rem;
+                }
                 h2 {
                     font-size: 1.4rem;
                     font-weight: 800;
@@ -157,10 +167,12 @@
                 width: 100%;
             }
             .descripcion {
-                margin-left: 3rem;
-                padding-right: 10rem;
+                margin-left: 12rem;
+                img {
+                    width: 45%;
+                }
                 h2 {
-                    font-size: 1.6rem;
+                    font-size: 2rem;
                     font-weight: 800;
                     text-transform: uppercase;
                 }

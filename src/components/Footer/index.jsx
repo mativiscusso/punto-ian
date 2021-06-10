@@ -91,7 +91,10 @@ export default function Footer() {
                     </div>
                 </div>
             </footer>
-            <p className="copy">Copiright 2021 .IAN COWORKING</p>
+            <p className="copy">
+                Copiright 2021 - Hecho por{" "}
+                <a href="https://iandigitaltalent.com">IAN Digital Talent</a>
+            </p>
         </>
     );
 }

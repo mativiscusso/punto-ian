@@ -3,10 +3,12 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Community from "./pages/Community";
 import TourPage from "./pages/TourPage";
+import ScrollToTop from "./components/ScrollToTop";
 
 function Routes() {
     return (
         <Router>
+            <ScrollToTop />
             <Switch>
                 <Route exact path="/">
                     <Home />
