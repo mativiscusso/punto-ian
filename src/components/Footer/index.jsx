@@ -5,6 +5,33 @@ import instagram from "../../assets/svg/instagram.svg";
 import email from "../../assets/svg/email.svg";
 import whatsapp from "../../assets/svg/whatsapp.svg";
 
+/**
+ * INTEGRACION NEWSLETTER NEXUDUS
+ * 
+    Objeto ejemplo de como tiene que viajar la data para vincular el newsletter
+    
+    {
+        "BusinessId": 745363622,
+        "Name": "test@example.com"",
+        "Email": "test@example.com",
+    }
+
+    POST a URL = https://spaces.nexudus.com/api/content/newslettersubscribers
+    Header { Authentication: Basic ZXhhbXBsZUBuZXh1ZHVzLmNvbTpFeGFtcGxlMTIzNA== }
+
+    Respuesta
+
+    {
+        "Status": 200,
+        "WasSuccessful": true,
+        "Message": "Record 'Name of the record' has been succesfully created.",
+        "Value": {
+            "Id": 12354678
+        }
+    }
+ *
+ */
+
 export default function Footer() {
     return (
         <>
