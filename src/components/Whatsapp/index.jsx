@@ -1,7 +1,6 @@
 import * as React from "react";
 
-function Whatsapp(props) {
-    const { primaryColor, secondaryColor } = props;
+function Whatsapp({ primaryColor, secondaryColor }) {
     return (
         <svg
             id="prefix__Capa_1"
@@ -10,7 +9,6 @@ function Whatsapp(props) {
             y={0}
             viewBox="0 0 682 682"
             xmlSpace="preserve"
-            {...props}
         >
             <style>{".prefix__st0{fill-rule:evenodd;clip-rule:evenodd}"}</style>
             <path

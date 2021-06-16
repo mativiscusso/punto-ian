@@ -1,38 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
+import { useForm } from "@formspree/react";
 import logoIan from "../../assets/img/logo-punto-ian-2.png";
 import facebook from "../../assets/svg/facebook.svg";
 import instagram from "../../assets/svg/instagram.svg";
 import email from "../../assets/svg/email.svg";
 import whatsapp from "../../assets/svg/whatsapp.svg";
 
-/**
- * INTEGRACION NEWSLETTER NEXUDUS
- * 
-    Objeto ejemplo de como tiene que viajar la data para vincular el newsletter
-    
-    {
-        "BusinessId": 745363622,
-        "Name": "test@example.com"",
-        "Email": "test@example.com",
-    }
-
-    POST a URL = https://spaces.nexudus.com/api/content/newslettersubscribers
-    Header { Authentication: Basic ZXhhbXBsZUBuZXh1ZHVzLmNvbTpFeGFtcGxlMTIzNA== }
-
-    Respuesta
-
-    {
-        "Status": 200,
-        "WasSuccessful": true,
-        "Message": "Record 'Name of the record' has been succesfully created.",
-        "Value": {
-            "Id": 12354678
-        }
-    }
- *
- */
-
 export default function Footer() {
+    const [emailNewsletter, setEmail] = useState(undefined);
+    const [open, setOpen] = useState(undefined);
+    const [disabled, setDisabled] = useState(false);
+
+    const [state, handleSubmit] = useForm("mknkbqol");
+
+    const submitNewsletter = (e) => {
+        e.preventDefault();
+        if (emailNewsletter && emailNewsletter.length > 10) {
+            setOpen("Gracias por susbcribirte");
+            setTimeout(() => setOpen(undefined), 2000);
+            setDisabled(true);
+            // handleSubmit(e);
+        } else {
+            setOpen("El mail es incorrecto");
+            setTimeout(() => setOpen(undefined), 2000);
+        }
+    };
+
+    console.log(state);
     return (
         <>
             <footer>
@@ -105,16 +99,28 @@ export default function Footer() {
                 <div className="bounce-in-top">
                     <h4>SUSCRIBITE PARA RECIBIR NUESTRAS NOVEDADES</h4>
                     <div className="form-control">
-                        <form>
+                        <form onSubmit={submitNewsletter}>
                             <input
-                                type="text"
-                                name="newsletter"
-                                id="newsletter"
+                                type="email"
+                                name="email"
+                                id="email"
+                                onChange={(e) => setEmail(e.target.value)}
+                                disabled={disabled}
                             />
-                            <button className="hvr-pop" type="submit">
+                            <textarea
+                                id="message"
+                                name="message"
+                                readOnly
+                                value="El usuario quiere ser añadido a la cadena de newsletters enviadas por Punto IAN."
+                                style={{ display: "none" }}
+                            />
+                            <button type="submit" disabled={disabled}>
                                 SUSCRIBIRME
                             </button>
                         </form>
+                        {open && (
+                            <small style={{ color: "#fff" }}>{open}</small>
+                        )}
                     </div>
                 </div>
             </footer>

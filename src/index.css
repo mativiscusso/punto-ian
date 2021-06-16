@@ -30,6 +30,10 @@ button:hover {
   cursor: pointer;
 }
 
+input:focus {
+  outline: 0;
+}
+
 .bounce-in-top {
   -webkit-animation: bounce-in-top 0.7s 300ms both;
   animation: bounce-in-top 0.7s 300ms both;
@@ -1699,6 +1703,10 @@ footer .form-control input {
   width: 65%;
 }
 
+footer .form-control input:disabled {
+  background-color: gray;
+}
+
 footer .form-control button {
   border-radius: 15px;
   background-color: #f8a734;
@@ -1707,6 +1715,20 @@ footer .form-control button {
   margin-left: -20px;
   font-weight: 800;
   width: 35%;
+}
+
+footer .form-control button:hover {
+  background-color: #000;
+  color: #f8a734;
+}
+
+footer .form-control button:disabled {
+  background-color: gray;
+}
+
+footer .form-control button:disabled:hover {
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .copy {
@@ -1746,19 +1768,19 @@ footer .form-control button {
     padding: 2.5rem 2rem 1rem 2rem;
   }
   footer div:first-child {
-    width: 35%;
+    width: 30%;
   }
   footer .icons-footer {
     width: 100%;
   }
   footer .form-control input {
-    width: 60%;
+    width: 65%;
   }
   footer .form-control button {
     width: 35%;
   }
-  footer div:last-child {
-    padding-left: 2rem;
+  footer div {
+    padding: 0;
   }
 }
 

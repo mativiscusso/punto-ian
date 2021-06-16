@@ -26,6 +26,9 @@ footer {
             border-radius: 15px;
             padding: 5px;
             width: 65%;
+            &:disabled {
+                background-color: gray;
+            }
         }
         button {
             border-radius: 15px;
@@ -35,6 +38,16 @@ footer {
             margin-left: -20px;
             font-weight: 800;
             width: 35%;
+            &:hover {
+                background-color: #000;
+                color: $primaryColor;
+            }
+            &:disabled {
+                background-color: gray;
+                &:hover {
+                    transform: scale(1);
+                }
+            }
         }
     }
 }
@@ -72,21 +85,21 @@ footer {
         padding: 2.5rem 2rem 1rem 2rem;
 
         div:first-child {
-            width: 35%;
+            width: 30%;
         }
         .icons-footer {
             width: 100%;
         }
         .form-control {
             input {
-                width: 60%;
+                width: 65%;
             }
             button {
                 width: 35%;
             }
         }
-        div:last-child {
-            padding-left: 2rem;
+        div {
+            padding: 0;
         }
     }
 }
