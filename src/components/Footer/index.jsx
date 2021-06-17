@@ -19,7 +19,7 @@ export default function Footer() {
             setOpen("Gracias por susbcribirte");
             setTimeout(() => setOpen(undefined), 2000);
             setDisabled(true);
-            // handleSubmit(e);
+            handleSubmit(e);
         } else {
             setOpen("El mail es incorrecto");
             setTimeout(() => setOpen(undefined), 2000);
