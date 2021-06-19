@@ -1315,7 +1315,7 @@ header .header-text h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #f8a734;
+  color: #262626;
   text-transform: uppercase;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
@@ -1375,7 +1375,7 @@ header .header-text h2 {
 }
 
 #servicios .servicio-detalle .descripcion .titulo-valor {
-  color: #f8a734;
+  color: #262626;
   font-weight: 800;
 }
 
@@ -1602,12 +1602,12 @@ header .header-text h2 {
 }
 
 #contacto .enviar-msg {
-  color: #f8a734;
   font-weight: 800;
   text-transform: uppercase;
   width: 150px;
   border-radius: 15px;
-  background: #f5f5f5;
+  background-color: #ffca68;
+  color: #262626;
   -webkit-box-shadow: 5px 5px 15px #bebebeb2, -5px -5px 15px #ffffff;
           box-shadow: 5px 5px 15px #bebebeb2, -5px -5px 15px #ffffff;
   border: 0;
@@ -1637,10 +1637,6 @@ header .header-text h2 {
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
     padding: 1.5rem;
-  }
-  #contacto .contacto-info .enviar-msg {
-    background-color: #f8a734;
-    color: #f5f5f5;
   }
   #contacto .contacto-info a {
     text-decoration: none;

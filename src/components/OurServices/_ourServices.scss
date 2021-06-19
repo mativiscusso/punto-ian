@@ -18,7 +18,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            color: $primaryColor;
+            color: $secondaryColor;
             text-transform: uppercase;
             transition: all 0.2s ease;
             &:nth-child(2) {
@@ -70,7 +70,7 @@
         }
         .descripcion {
             .titulo-valor {
-                color: $primaryColor;
+                color: $secondaryColor;
                 font-weight: 800;
             }
             ul {

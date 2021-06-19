@@ -41,7 +41,7 @@ export default function Contact() {
                     venir a visitarnos para conocer nuestros espacios o podes
                     experimentar un dia de trabajo de cortesía.
                 </p>
-                <h3>Contacto</h3>
+                <strong>Contacto</strong>
                 <p>(+54) 341 3085430</p>
                 <small>
                     <a

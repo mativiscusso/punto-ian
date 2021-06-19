@@ -16,12 +16,12 @@
         }
     }
     .enviar-msg {
-        color: $primaryColor;
         font-weight: 800;
         text-transform: uppercase;
         width: 150px;
         border-radius: 15px;
-        background: $white;
+        background-color: rgb(255, 202, 104);
+        color: $secondaryColor;
         box-shadow: 5px 5px 15px #bebebeb2, -5px -5px 15px #ffffff;
         border: 0;
         padding: 0.5rem;
@@ -51,10 +51,7 @@
             border-radius: 10px;
             border: 1px solid rgba(255, 255, 255, 0.18);
             padding: 1.5rem;
-            .enviar-msg {
-                background-color: $primaryColor;
-                color: $white;
-            }
+
             a {
                 text-decoration: none;
                 transition: all 0.2s;

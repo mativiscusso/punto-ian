@@ -26,7 +26,6 @@ export default function Footer() {
         }
     };
 
-    console.log(state);
     return (
         <>
             <footer>
