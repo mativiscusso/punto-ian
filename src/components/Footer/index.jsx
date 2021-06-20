@@ -11,7 +11,7 @@ export default function Footer() {
     const [open, setOpen] = useState(undefined);
     const [disabled, setDisabled] = useState(false);
 
-    const [state, handleSubmit] = useForm("mknkbqol");
+    const [ handleSubmit] = useForm("mknkbqol");
 
     const submitNewsletter = (e) => {
         e.preventDefault();
