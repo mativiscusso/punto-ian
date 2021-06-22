@@ -1615,6 +1615,118 @@ header .header-text h2 {
   margin: 1rem 0;
 }
 
+@-webkit-keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-150px * 9));
+            transform: translateX(calc(-150px * 9));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-150px * 9));
+            transform: translateX(calc(-150px * 9));
+  }
+}
+
+#contacto article {
+  padding-top: 3rem;
+}
+
+#contacto article h3 {
+  font-family: "Nunito", sans-serif;
+  color: #262626;
+}
+
+#contacto article .slider {
+  background: transparent;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+#contacto article .slider::before, #contacto article .slider::after {
+  content: "";
+  background: -webkit-gradient(linear, left top, right top, from(white), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: absolute;
+  width: 150px;
+  z-index: 2;
+}
+
+#contacto article .slider::after {
+  right: 0;
+  top: 0;
+  -webkit-transform: rotateZ(180deg);
+          transform: rotateZ(180deg);
+}
+
+#contacto article .slider::before {
+  left: 0;
+  top: 0;
+}
+
+#contacto article .slider .slide-track {
+  -webkit-animation: scroll 40s linear infinite;
+          animation: scroll 40s linear infinite;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: calc(150px * 18);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contacto article .slider .slide {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 150px;
+}
+
+#contacto article .slider .slide img {
+  padding: 10px;
+  width: inherit;
+}
+
+@-webkit-keyframes carousel {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-200px * 9));
+            transform: translateX(calc(-200px * 9));
+  }
+}
+
+@keyframes carousel {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-200px * 9));
+            transform: translateX(calc(-200px * 9));
+  }
+}
+
 /* Medium devices (tablets, 768px and up) */
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -1646,6 +1758,12 @@ header .header-text h2 {
   }
   #contacto .contacto-info a:hover {
     font-size: 15px;
+  }
+  #contacto article {
+    padding-top: 5rem;
+  }
+  #contacto article h3 {
+    font-size: 2rem;
   }
 }
 

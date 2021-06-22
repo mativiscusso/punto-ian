@@ -33,41 +33,141 @@ export default function Contact() {
             });
     }
     return (
-        <section id="contacto">
-            <SectionTittle tittle="¿Dónde estamos?" />
-            <div className="contacto-info text-focus-in">
-                <p>
-                    No dudes en contactarnos por cualquier inquietud. Podes
-                    venir a visitarnos para conocer nuestros espacios o podes
-                    experimentar un dia de trabajo de cortesía.
-                </p>
-                <strong>Contacto</strong>
-                <p>(+54) 341 3085430</p>
-                <small>
+        <>
+            <section id="contacto">
+                <SectionTittle tittle="¿Dónde estamos?" />
+                <div className="contacto-info text-focus-in">
+                    <p>
+                        No dudes en contactarnos por cualquier inquietud. Podes
+                        venir a visitarnos para conocer nuestros espacios o
+                        podes experimentar un dia de trabajo de cortesía.
+                    </p>
+                    <strong>Contacto</strong>
+                    <p>(+54) 341 3085430</p>
+                    <small>
+                        <a
+                            href="https://g.page/ian_Coworking?share"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Córdoba 2035 - Rosario, SF (2000)
+                        </a>
+                    </small>
                     <a
-                        href="https://g.page/ian_Coworking?share"
+                        href="https://wa.link/ntkshl"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        Córdoba 2035 - Rosario, SF (2000)
+                        <button className="enviar-msg hvr-pop">
+                            Enviar Mensaje
+                        </button>
                     </a>
-                </small>
-                <a
-                    href="https://wa.link/ntkshl"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <button className="enviar-msg hvr-pop">
-                        Enviar Mensaje
-                    </button>
-                </a>
-            </div>
-            <img
-                loading="lazy"
-                className="contacto-mapa"
-                src={map}
-                alt="Ubicacion punto ian"
-            />
-        </section>
+                </div>
+                <img
+                    loading="lazy"
+                    className="contacto-mapa"
+                    src={map}
+                    alt="Ubicacion punto ian"
+                />
+                <article>
+                    <h3>Empresas que nos acompañaron</h3>
+
+                    <div className="slider">
+                        <div className="slide-track">
+                            <div className="slide">
+                                <img src="/marcas/b&b.png" alt="b&B" />
+                            </div>
+                            <div className="slide">
+                                <img
+                                    src="/marcas/bonafide.png"
+                                    alt="bonafide"
+                                />
+                            </div>
+                            <div className="slide">
+                                <img src="/marcas/cabify.png" alt="cabify" />
+                            </div>
+                            <div className="slide">
+                                <img src="/marcas/casatti.png" alt="casatti" />
+                            </div>
+                            <div className="slide">
+                                <img src="/marcas/globant.png" alt="globant" />
+                            </div>
+                            <div className="slide">
+                                <img
+                                    src="/marcas/gobetween.png"
+                                    alt="gobetween"
+                                />
+                            </div>
+                            <div className="slide">
+                                <img src="/marcas/jb.png" alt="jb" />
+                            </div>
+                            <div className="slide">
+                                <img
+                                    src="/marcas/maringroup.png"
+                                    alt="marin group"
+                                />
+                            </div>
+                            <div className="slide">
+                                <img
+                                    src="/marcas/nativa.png"
+                                    alt="nativa models"
+                                />
+                            </div>
+                            <div className="slide">
+                                <img
+                                    src="/marcas/pedidosya.png"
+                                    alt="pedidos ya"
+                                />
+                            </div>
+                            <div className="slide">
+                                <img src="/marcas/b&b.png" alt="b&B" />
+                            </div>
+                            <div className="slide">
+                                <img
+                                    src="/marcas/bonafide.png"
+                                    alt="bonafide"
+                                />
+                            </div>
+                            <div className="slide">
+                                <img src="/marcas/cabify.png" alt="cabify" />
+                            </div>
+                            <div className="slide">
+                                <img src="/marcas/casatti.png" alt="casatti" />
+                            </div>
+                            <div className="slide">
+                                <img src="/marcas/globant.png" alt="globant" />
+                            </div>
+                            <div className="slide">
+                                <img
+                                    src="/marcas/gobetween.png"
+                                    alt="gobetween"
+                                />
+                            </div>
+                            <div className="slide">
+                                <img src="/marcas/jb.png" alt="jb" />
+                            </div>
+                            <div className="slide">
+                                <img
+                                    src="/marcas/maringroup.png"
+                                    alt="marin group"
+                                />
+                            </div>
+                            <div className="slide">
+                                <img
+                                    src="/marcas/nativa.png"
+                                    alt="nativa models"
+                                />
+                            </div>
+                            <div className="slide">
+                                <img
+                                    src="/marcas/pedidosya.png"
+                                    alt="pedidos ya"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </>
     );
 }

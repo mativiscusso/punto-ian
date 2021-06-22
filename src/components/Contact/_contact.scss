@@ -27,6 +27,78 @@
         padding: 0.5rem;
         margin: 1rem 0;
     }
+    $animationSpeed: 40s;
+
+    // Animation
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(calc(-150px * 9));
+        }
+    }
+    article {
+        padding-top: 3rem;
+        h3 {
+            font-family: $font;
+            color: $secondaryColor;
+        }
+        .slider {
+            background: transparent;
+            height: fit-content;
+            margin: auto;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+
+            &::before,
+            &::after {
+                content: "";
+                background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+                height: fit-content;
+                position: absolute;
+                width: 150px;
+                z-index: 2;
+            }
+
+            &::after {
+                right: 0;
+                top: 0;
+                transform: rotateZ(180deg);
+            }
+
+            &::before {
+                left: 0;
+                top: 0;
+            }
+
+            .slide-track {
+                animation: scroll $animationSpeed linear infinite;
+                display: flex;
+                width: calc(150px * 18);
+                align-items: center;
+            }
+
+            .slide {
+                height: fit-content;
+                width: 150px;
+                img {
+                    padding: 10px;
+                    width: inherit;
+                }
+            }
+        }
+    }
+
+    @keyframes carousel {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(calc(-200px * 9));
+        }
+    }
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -59,6 +131,12 @@
                 &:hover {
                     font-size: 15px;
                 }
+            }
+        }
+        article {
+            padding-top: 5rem;
+            h3 {
+                font-size: 2rem;
             }
         }
     }
