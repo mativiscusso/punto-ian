@@ -70,7 +70,7 @@ export default function Contact() {
                     alt="Ubicacion punto ian"
                 />
                 <article>
-                    <h3>Empresas que nos acompañaron</h3>
+                    <p>Empresas que nos acompañaron</p>
 
                     <div className="slider">
                         <div className="slide-track">
