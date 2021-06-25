@@ -120,28 +120,25 @@ export default function Contact() {
                                 />
                             </div>
                             <div className="slide">
-                                <img
-                                    src="/marcas/keclon.png"
-                                    alt="pedidos ya"
-                                />
+                                <img src="/marcas/keclon.png" alt="keclon" />
                             </div>
                             <div className="slide">
-                                <img
-                                    src="/marcas/danone.png"
-                                    alt="pedidos ya"
-                                />
+                                <img src="/marcas/danone.png" alt="danone" />
                             </div>
                             <div className="slide">
                                 <img
                                     src="/marcas/digital.png"
-                                    alt="pedidos ya"
+                                    alt="digital house"
                                 />
                             </div>
                             <div className="slide">
                                 <img
                                     src="/marcas/matbarofex.png"
-                                    alt="pedidos ya"
+                                    alt="matbarofex"
                                 />
+                            </div>
+                            <div className="slide">
+                                <img src="/marcas/fotea.png" alt="fotea" />
                             </div>
                             <div className="slide">
                                 <img src="/marcas/b&b.png" alt="b&B" />
@@ -205,6 +202,9 @@ export default function Contact() {
                                     src="/marcas/matbarofex.png"
                                     alt="matbarofex"
                                 />
+                            </div>
+                            <div className="slide">
+                                <img src="/marcas/fotea.png" alt="fotea" />
                             </div>
                         </div>
                     </div>

@@ -3,12 +3,14 @@ import SectionTittle from "../SectionTittle";
 import iconOffice from "../../assets/svg/office-building.svg";
 import iconSpaces from "../../assets/svg/workspace.svg";
 import iconWorkspaces from "../../assets/svg/reunion.svg";
+import iconFotografia from "../../assets/svg/camara.svg";
 import imgSpaces from "../../assets/img/nomade.jpg";
 import imgResidente from "../../assets/img/residente.jpg";
 import imgfixdesk from "../../assets/img/fixdesk.jpg";
 import imgWorkspaces from "../../assets/img/reu.jpg";
 import imgReu from "../../assets/img/sala-reu.jpg";
 import imgOffices from "../../assets/img/ofi.jpg";
+import imgFotografia from "../../assets/img/estudio-fotografico.jpg";
 
 export default function OurServices() {
     const [isVisible, setIsVisible] = useState(1);
@@ -63,6 +65,21 @@ export default function OurServices() {
                         alt="icono de servicios"
                     />
                     Salas
+                </div>
+                <div
+                    className={
+                        isVisible === 4
+                            ? "servicios-btn shadow-none"
+                            : "servicios-btn"
+                    }
+                    onClick={() => handleClick(4)}
+                >
+                    <img
+                        loading="lazy"
+                        src={iconFotografia}
+                        alt="icono de servicios"
+                    />
+                    Fotografía
                 </div>
             </div>
             {isVisible === 1 && (
@@ -316,6 +333,69 @@ export default function OurServices() {
                                 <h3>$3.450 + I.V.A. hora</h3>
                                 <h3>$2875 + I.V.A. a partir de 2 hs</h3>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            )}
+            {isVisible === 4 && (
+                <div className="servicio-detalle swing-in-right-bck">
+                    <div className="descripcion text-focus-in">
+                        <img
+                            loading="lazy"
+                            src={imgFotografia}
+                            alt="Estudio fotografico"
+                        />
+                        <div>
+                            <h2>Estudio Fotográfico</h2>
+                            <span>⏰ Lunes a Viernes de 8 a 19 hs</span>
+                            <br />
+                            <br />
+
+                            <h3 className="titulo-valor">Estudio 1 - 40 m2</h3>
+                            <small>
+                                Ideal para shooting de moda, catálogos y rodajes
+                                chicos.
+                            </small>
+
+                            <ul>
+                                <li>x 1hs --- $1.800</li>
+                                <li>x 2hs --- $3.000</li>
+                                <li>x 4hs --- $4.500</li>
+                                <li>x 6hs --- $6.000</li>
+                                <li>x 8hs --- $7.500</li>
+                            </ul>
+                            <br />
+                            <h3 className="titulo-valor">Estudio 2 - 100 m2</h3>
+                            <small>
+                                Ideal para producciones grandes con
+                                escenografía, tiro muy largo de cámara y mayor
+                                capacidad de personas.
+                            </small>
+                            <ul>
+                                <li>x 3hs --- $6.000</li>
+                                <li>x 6hs --- $10.000</li>
+                                <li>x 8hs --- $13.000</li>
+                            </ul>
+                            <hr />
+                            <small>
+                                (*) Incluído equipo de iluminación ( 2 flashes
+                                Elinchrom 400, 1 flash godox 300, 1 flash
+                                multiblitz 400, 1 fresnel led con softbox de luz
+                                continua, octabox de 120 cm, 3 sofbox medianos,
+                                paraguas plateados y transparentes, beauty dish,
+                                cono snoop, 5 tripodes, 2 tripode jirafas y
+                                cables). Fondo de fotografía colorama gris 2,72
+                                x 11 metros (8 colores a elección) (**) El fondo
+                                innito de papel se cobra aparte si se usa para
+                                caminar o apoyar cosas, por cada fondo son
+                                $800.- x metro lineal pisado de fondo.
+                            </small>
+                            <br />
+                            <img
+                                src="/marcas/fotea.png"
+                                alt="Fotea"
+                                style={{ width: 100 }}
+                            />
                         </div>
                     </div>
                 </div>
