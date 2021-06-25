@@ -70,7 +70,7 @@ export default function Contact() {
                     alt="Ubicacion punto ian"
                 />
                 <article>
-                    <p>Empresas que nos acompañaron</p>
+                    <SectionTittle tittle="Nos Eligieron" />
 
                     <div className="slider">
                         <div className="slide-track">
@@ -120,6 +120,30 @@ export default function Contact() {
                                 />
                             </div>
                             <div className="slide">
+                                <img
+                                    src="/marcas/keclon.png"
+                                    alt="pedidos ya"
+                                />
+                            </div>
+                            <div className="slide">
+                                <img
+                                    src="/marcas/danone.png"
+                                    alt="pedidos ya"
+                                />
+                            </div>
+                            <div className="slide">
+                                <img
+                                    src="/marcas/digital.png"
+                                    alt="pedidos ya"
+                                />
+                            </div>
+                            <div className="slide">
+                                <img
+                                    src="/marcas/matbarofex.png"
+                                    alt="pedidos ya"
+                                />
+                            </div>
+                            <div className="slide">
                                 <img src="/marcas/b&b.png" alt="b&B" />
                             </div>
                             <div className="slide">
@@ -162,6 +186,24 @@ export default function Contact() {
                                 <img
                                     src="/marcas/pedidosya.png"
                                     alt="pedidos ya"
+                                />
+                            </div>
+                            <div className="slide">
+                                <img src="/marcas/keclon.png" alt="keclon" />
+                            </div>
+                            <div className="slide">
+                                <img src="/marcas/danone.png" alt="danone" />
+                            </div>
+                            <div className="slide">
+                                <img
+                                    src="/marcas/digital.png"
+                                    alt="digital house"
+                                />
+                            </div>
+                            <div className="slide">
+                                <img
+                                    src="/marcas/matbarofex.png"
+                                    alt="matbarofex"
                                 />
                             </div>
                         </div>

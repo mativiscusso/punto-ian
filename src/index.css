@@ -1707,7 +1707,7 @@ header .header-text h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: calc(150px * 18);
+  width: calc(150px * 26);
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1731,8 +1731,8 @@ header .header-text h2 {
             transform: translateX(0);
   }
   100% {
-    -webkit-transform: translateX(calc(-200px * 9));
-            transform: translateX(calc(-200px * 9));
+    -webkit-transform: translateX(calc(-200px * 13));
+            transform: translateX(calc(-200px * 13));
   }
 }
 
@@ -1742,8 +1742,8 @@ header .header-text h2 {
             transform: translateX(0);
   }
   100% {
-    -webkit-transform: translateX(calc(-200px * 9));
-            transform: translateX(calc(-200px * 9));
+    -webkit-transform: translateX(calc(-200px * 13));
+            transform: translateX(calc(-200px * 13));
   }
 }
 
