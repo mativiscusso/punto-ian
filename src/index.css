@@ -1428,13 +1428,12 @@ header .header-text h2 {
   }
   #servicios .servicios-botones {
     padding-bottom: 2rem;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   #servicios .servicios-botones .servicios-btn {
     font-size: 1.5rem;
-    width: 24%;
+    width: 20%;
     height: 220px;
     margin-right: 12px;
   }
@@ -1490,18 +1489,12 @@ header .header-text h2 {
   }
   #servicios .servicios-botones {
     padding-bottom: 3rem;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  #servicios .servicios-botones .servicios-btn:nth-child(2) {
-    margin: 0 4rem;
   }
   #servicios .servicio-detalle img {
     width: 100%;
   }
   #servicios .servicio-detalle .descripcion {
-    margin-left: 12rem;
+    margin-left: 4rem;
   }
   #servicios .servicio-detalle .descripcion img {
     width: 45%;

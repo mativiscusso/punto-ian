@@ -105,11 +105,11 @@
         padding: 6rem 2rem;
         .servicios-botones {
             padding-bottom: 2rem;
-            justify-content: center;
+            justify-content: space-around;
 
             .servicios-btn {
                 font-size: 1.5rem;
-                width: 24%;
+                width: 20%;
                 height: 220px;
                 margin-right: 12px;
                 img {
@@ -157,19 +157,13 @@
         padding: 6rem 3rem;
         .servicios-botones {
             padding-bottom: 3rem;
-            justify-content: center;
-            .servicios-btn {
-                &:nth-child(2) {
-                    margin: 0 4rem;
-                }
-            }
         }
         .servicio-detalle {
             img {
                 width: 100%;
             }
             .descripcion {
-                margin-left: 12rem;
+                margin-left: 4rem;
                 img {
                     width: 45%;
                 }
