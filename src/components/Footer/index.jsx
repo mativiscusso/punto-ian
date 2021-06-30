@@ -11,7 +11,7 @@ export default function Footer() {
     const [open, setOpen] = useState(undefined);
     const [disabled, setDisabled] = useState(false);
 
-    const [ handleSubmit] = useForm("mknkbqol");
+    const [handleSubmit] = useForm("mknkbqol");
 
     const submitNewsletter = (e) => {
         e.preventDefault();
@@ -91,7 +91,7 @@ export default function Footer() {
                 </div>
                 <div className="bounce-in-top">
                     <h4>HORARIOS</h4>
-                    <p>Lunes a Viernes de 08.00 a 18.45 hrs.</p>
+                    <p>Lunes a Viernes de 08.00 a 19.00 hrs.</p>
                     <p>Córdoba 2035 - Rosario, SF (2000)</p>
                     <p>info@crecerargentina.com.ar</p>
                 </div>
