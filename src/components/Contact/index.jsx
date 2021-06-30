@@ -63,12 +63,20 @@ export default function Contact() {
                         </button>
                     </a>
                 </div>
-                <img
-                    loading="lazy"
-                    className="contacto-mapa"
-                    src={map}
-                    alt="Ubicacion punto ian"
-                />
+                <a
+                    href="https://g.page/ian_Coworking?share"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ubicacion punto ian"
+                >
+                    <img
+                        loading="lazy"
+                        className="contacto-mapa"
+                        src={map}
+                        alt="Ubicacion punto ian"
+                    />
+                </a>
+
                 <article>
                     <SectionTittle tittle="Nos Eligieron" />
 
