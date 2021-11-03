@@ -280,13 +280,7 @@ export default function OurServices() {
                             />
                             <div>
                                 <h2>Sala de reuniones</h2>
-                                <p>Hasta 7 personas</p>
-                                <span>
-                                    <strong>
-                                        CON DISTANCIAMIENTO NECESARIO COVID-19
-                                        🦠
-                                    </strong>
-                                </span>
+
                                 <h3 className="titulo-valor">Por Hora</h3>
                                 <ul>
                                     <li>
@@ -311,13 +305,7 @@ export default function OurServices() {
                             />
                             <div>
                                 <h2>Auditorio</h2>
-                                <p>Hasta 20 personas</p>
-                                <span>
-                                    <strong>
-                                        CON DISTANCIAMIENTO NECESARIO COVID-19
-                                        🦠
-                                    </strong>
-                                </span>
+
                                 <h3 className="titulo-valor">Por Hora</h3>
                                 <ul>
                                     <li>✔ Proyector.</li>
