@@ -293,7 +293,7 @@ export default function OurServices() {
                                     <li>✔ Pizarra móvil.</li>
                                 </ul>
                                 <h3>$1200 + I.V.A. hora</h3>
-                                <h3>$9000 + I.V.A. a partir de 2 hs</h3>
+                                <h3>$900 + I.V.A. a partir de 2 hs</h3>
                             </div>
                         </div>
                         <hr />
