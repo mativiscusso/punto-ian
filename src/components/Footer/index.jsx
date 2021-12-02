@@ -1,9 +1,9 @@
-import React, { useState } from "react";
 import { useForm } from "@formspree/react";
+import React, { useState } from "react";
 import logoIan from "../../assets/img/logo-punto-ian-2.png";
+import email from "../../assets/svg/email.svg";
 import facebook from "../../assets/svg/facebook.svg";
 import instagram from "../../assets/svg/instagram.svg";
-import email from "../../assets/svg/email.svg";
 import whatsapp from "../../assets/svg/whatsapp.svg";
 
 export default function Footer() {
@@ -91,7 +91,7 @@ export default function Footer() {
                 </div>
                 <div className="bounce-in-top">
                     <h4>HORARIOS</h4>
-                    <p>Lunes a Viernes de 08.00 a 19.00 hrs.</p>
+                    <p>Lunes a Viernes de 08.00 a 20.00 hrs.</p>
                     <p>Córdoba 2035 - Rosario, SF (2000)</p>
                     <p>info@crecerargentina.com.ar</p>
                 </div>

@@ -213,7 +213,7 @@ export default function OurServices() {
                         <img loading="lazy" src={imgOffices} alt="Oficinas" />
                         <div>
                             <h2>Oficinas Privadas</h2>
-                            <span>⏰ Lunes a Viernes de 8 a 19 hs</span>
+                            <span>⏰ Lunes a Viernes de 8 a 20 hs</span>
                             <h3 className="titulo-valor">Mensual</h3>
                             <ul>
                                 <li>
@@ -334,7 +334,7 @@ export default function OurServices() {
                         />
                         <div>
                             <h2>Estudio Fotográfico</h2>
-                            <span>⏰ Lunes a Viernes de 8 a 19 hs</span>
+                            <span>⏰ Lunes a Viernes de 8 a 20 hs</span>
                             <br />
                             <br />
 
