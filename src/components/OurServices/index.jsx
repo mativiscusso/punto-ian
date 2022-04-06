@@ -1,12 +1,10 @@
 import React, { useState } from "react";
-import imgFotografia from "../../assets/img/estudio-fotografico.jpg";
 import imgfixdesk from "../../assets/img/fixdesk.jpg";
 import imgSpaces from "../../assets/img/nomade.jpg";
 import imgOffices from "../../assets/img/ofi.jpg";
 import imgResidente from "../../assets/img/residente.jpg";
 import imgWorkspaces from "../../assets/img/reu.jpg";
 import imgReu from "../../assets/img/sala-reu.jpg";
-import iconFotografia from "../../assets/svg/camara.svg";
 import iconOffice from "../../assets/svg/office-building.svg";
 import iconWorkspaces from "../../assets/svg/reunion.svg";
 import iconSpaces from "../../assets/svg/workspace.svg";
