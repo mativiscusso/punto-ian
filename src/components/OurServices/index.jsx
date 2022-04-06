@@ -66,7 +66,7 @@ export default function OurServices() {
                     />
                     Salas
                 </div>
-                <div
+                {/* <div
                     className={
                         isVisible === 4
                             ? "servicios-btn shadow-none"
@@ -80,7 +80,7 @@ export default function OurServices() {
                         alt="icono de servicios"
                     />
                     Fotografía
-                </div>
+                </div> */}
             </div>
             {isVisible === 1 && (
                 <div className="servicio-detalle swing-in-right-bck">
@@ -324,7 +324,7 @@ export default function OurServices() {
                     </div>
                 </div>
             )}
-            {isVisible === 4 && (
+            {/* {isVisible === 4 && (
                 <div className="servicio-detalle swing-in-right-bck">
                     <div className="descripcion text-focus-in">
                         <img
@@ -386,7 +386,7 @@ export default function OurServices() {
                         </div>
                     </div>
                 </div>
-            )}
+            )} */}
         </section>
     );
 }
