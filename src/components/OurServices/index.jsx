@@ -118,15 +118,15 @@ export default function OurServices() {
                                     </li>
                                     <li>✔ Lockers</li>
                                 </ul>
-                                <h3>$6.500 +I.V.A.</h3>
+                                <h3>$9.400 +I.V.A.</h3>
                                 <br />
                                 <h3 className="titulo-valor">Por día</h3>
                                 <span>
                                     Puesto flexible en espacios de uso común
                                     según disponibilidad en el momento.
                                 </span>
-                                <h3>$500 - 4hs media jornada</h3>
-                                <h3>$700 - 8hs jornada completa</h3>
+                                <h3>$700 - 4hs media jornada</h3>
+                                <h3>$900 - 8hs jornada completa</h3>
                             </div>
                         </div>
                         <hr />
@@ -162,7 +162,7 @@ export default function OurServices() {
                                     </li>
                                     <li>✔ Lockers</li>
                                 </ul>
-                                <h3>$7.500 + I.V.A.</h3>
+                                <h3>$9.400 + I.V.A.</h3>
                             </div>
                         </div>
                         <hr />
@@ -199,7 +199,7 @@ export default function OurServices() {
                                     </li>
                                     <li>✔ Lockers.</li>
                                 </ul>
-                                <h3>$10.400 + I.V.A.</h3>
+                                <h3>$13.500 + I.V.A.</h3>
                             </div>
                         </div>
                     </div>
@@ -261,8 +261,8 @@ export default function OurServices() {
                             </ul>
                             <br />
 
-                            <h3>$3.800 + I.V.A. - Jornada completa</h3>
-                            <h3>$1.900 + I.V.A. - Media Jornada</h3>
+                            <h3>CONSULTAR DISPONIBILIDAD</h3>
+                            {/* <h3>$1.900 + I.V.A. - Media Jornada</h3> */}
                         </div>
                     </div>
                 </div>
@@ -290,8 +290,8 @@ export default function OurServices() {
                                     <li>✔ Proyector.</li>
                                     <li>✔ Pizarra móvil.</li>
                                 </ul>
-                                <h3>$1200 + I.V.A. hora</h3>
-                                <h3>$900 + I.V.A. a partir de 2 hs</h3>
+                                <h3>$1.700 + I.V.A. hora</h3>
+                                <h3>$1.500 + I.V.A. a partir de 2 hs</h3>
                             </div>
                         </div>
                         <hr />
@@ -315,8 +315,8 @@ export default function OurServices() {
                                     <li>✔ Doble iluminación.</li>
                                     <li>✔ Superficie del auditorio 100m2.</li>
                                 </ul>
-                                <h3>$4.500 + I.V.A. hora</h3>
-                                <h3>$3.800 + I.V.A. a partir de 2 hs</h3>
+                                <h3>$5.500 + I.V.A. hora</h3>
+                                <h3>$4.500 + I.V.A. a partir de 2 hs</h3>
                             </div>
                         </div>
                     </div>
