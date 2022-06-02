@@ -238,7 +238,7 @@ export default function OurServices() {
                                 <li>✔ Silla ergonómica.</li>
                                 <li>✔ Lockers.</li>
                             </ul>
-                            <h3>$12.500 + I.V.A.</h3>
+                            {/* <h3>$12.500 + I.V.A.</h3> */}
                             <small>POR PUESTO DE TRABAJO</small>
                             <br />
                             <br />
