@@ -118,7 +118,7 @@ export default function OurServices() {
                                     </li>
                                     <li>✔ Lockers</li>
                                 </ul>
-                                <h3>$9.400 +I.V.A.</h3>
+                                <h3>$7.900 +I.V.A.</h3>
                                 <br />
                                 <h3 className="titulo-valor">Por día</h3>
                                 <span>
